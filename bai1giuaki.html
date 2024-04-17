@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng tính toán đơn giản</title>
+    <link rel="stylesheet" href="bai1giuaki.css">
+</head>
+
+<body>
+    <h1>Ứng dụng tính toán</h1>
+    <div class="container">
+        <input type="number" id="inputA" placeholder="Nhập số A">
+        <input type="number" id="inputB" placeholder="Nhập số B">
+        <div class="buttons">
+            <button onclick="tinhToan('SUM')">SUM</button>
+            <button onclick="tinhToan('SUBTRACT')">SUBTRACT</button>
+            <button onclick="tinhToan('MULTIPLY')">MULTIPLY</button>
+            <button onclick="tinhToan('DIVIDE')">DIVIDE</button>
+            <button onclick="reset()">RESET</button>
+        </div>
+        <p id="result"></p>
+    </div>
+    <script src="bai1giuaki.js"></script>
+</body>
+
+</html>
